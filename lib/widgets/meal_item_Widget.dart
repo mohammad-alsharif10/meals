@@ -60,7 +60,7 @@ class MealItem extends StatelessWidget {
           return MealDetailScreen(id);
         },
       ),
-    );
+    ).then((value) => print(value));
   }
 
   @override
